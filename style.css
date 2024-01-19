@@ -1,0 +1,97 @@
+body{
+    background-color: rgb(247, 194, 234);
+    color: white;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+
+.menu_logotipo{
+    max-width: 150px;
+    border-radius: 1000px 120px;
+}
+
+.menu_lista{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.menu_lista_item{
+    text-decoration: none;
+    font-size: 30px;
+    color: rgb(236,69,119);
+    font-family: 'Rubik Doodle Triangles', system-ui;
+}
+.menu_curriculo{
+    background-color: rgb(236, 69, 119);
+    color: white;
+    font-family: 'Rubik Doodle Triangles', system-ui;
+    font-size: 24px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-decoration: none; 
+}
+.banner{
+    background-image: url("https://www.icegif.com/wp-content/uploads/2023/05/icegif-1.gif");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;   
+    height: 50vh; 
+    display: flex;
+    justify-content: center;
+}
+.banner_info{
+    display: flex;
+    gap: 20px;
+    height: 30vh;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(189, 105, 36, 0.808);
+    padding: 30px;
+    border-radius: 0 0 20px 20px;
+}
+
+.banner_info_imagem{
+    max-width: 400px;
+    border: 5px solid pink;
+    border-radius: 100%;
+}
+.banner_info_nome{
+    color: white;
+    font-family: 'Rubik Doodle Triangles', system-ui;
+    font-size: 50px;
+}
+.banner_info_cargo{
+    color: rgb(247, 203, 210);
+    font-family: 'Salsa', cursive;
+    font-size: 20px;
+}
+.sobre{
+    max-width: 80vw;
+    margin: 60px auto;
+    border-top: 10px solid rgb(189,105,36);
+    border-bottom: 10px solid rgb(189,105,36);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sobre_info{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.sobre_info_titulo{
+    font-size: 50px;
+    font-family: 'Rubik Doodle Triangles', system-ui;
+}
+.sobre_info_texto{
+    font-size: 20px;
+    line-height: 1.5;
+    font-family: 'Salsa', cursive;
+}
